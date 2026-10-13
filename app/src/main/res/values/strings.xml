@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Custom Controls</string>
+    <string name="accessibility_service_label">Custom Controls Touch Engine</string>
+    <string name="accessibility_service_description">Simulates precise virtual gamepad touch taps, holds, and sweeps on screen for mobile games.</string>
+</resources>

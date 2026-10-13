@@ -1,0 +1,6 @@
+{
+  "summary": "Architecture and implementation plan for Custom Controls, an Android floating gamepad overlay application with AccessibilityService gesture touch injection, WindowManager HUD overlay, button mapping and customization, profile management, and an interactive touch playground.",
+  "updatedAt": "2026-10-13T07:00:44.955570811Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Custom Controls",
+  "description": "Floating on-screen virtual gamepad overlay with accessibility touch mapping for mobile games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

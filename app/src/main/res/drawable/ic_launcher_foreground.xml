@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="18.9"
+        android:translateY="18.9">
+        <!-- Controller body -->
+        <path
+            android:fillColor="#1E293B"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.5"
+            android:pathData="M24,36 C18,36 12,42 10,54 C8,66 12,84 20,88 C26,91 32,82 38,72 L70,72 C76,82 82,91 88,88 C96,84 100,66 98,54 C96,42 90,36 84,36 L24,36 Z" />
+        <!-- Top Bumpers L1 / R1 -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M24,30 C20,30 18,33 16,35 L34,35 C32,32 28,30 24,30 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M84,30 C80,30 76,32 74,35 L92,35 C90,33 88,30 84,30 Z" />
+        <!-- D-Pad (Left) -->
+        <!-- Center core -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M28,49 L34,49 L34,55 L28,55 Z" />
+        <!-- Up -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M28,43 L34,43 L34,49 L28,49 Z" />
+        <!-- Down -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M28,55 L34,55 L34,61 L28,61 Z" />
+        <!-- Left -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M22,49 L28,49 L28,55 L22,55 Z" />
+        <!-- Right -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M34,49 L40,49 L40,55 L34,55 Z" />
+
+        <!-- Analog Stick (Center-Left) -->
+        <path
+            android:fillColor="#0F172A"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.5"
+            android:pathData="M44,60 A7,7 0 1 0 44,74 A7,7 0 1 0 44,60 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M44,64 A3,3 0 1 0 44,70 A3,3 0 1 0 44,64 Z" />
+
+        <!-- Action Glyphs (Right) -->
+        <!-- Triangle (Top: Green) -->
+        <path
+            android:fillColor="#00E676"
+            android:pathData="M80,42 L84,48 L76,48 Z" />
+        <!-- Cross (Bottom: Blue) -->
+        <path
+            android:fillColor="#2979FF"
+            android:pathData="M78,60 L82,64 M82,60 L78,64"
+            android:strokeColor="#2979FF"
+            android:strokeWidth="1.8" />
+        <!-- Square (Left: Pink) -->
+        <path
+            android:fillColor="#E040FB"
+            android:pathData="M70,50 L75,50 L75,55 L70,55 Z" />
+        <!-- Circle (Right: Coral) -->
+        <path
+            android:fillColor="#FF5252"
+            android:pathData="M86,49.5 A3,3 0 1 0 86,55.5 A3,3 0 1 0 86,49.5 Z" />
+
+        <!-- Select & Start Buttons -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M46,47 L50,47 L50,49 L46,49 Z" />
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M56,47 L60,47 L60,49 L56,49 Z" />
+    </group>
+</vector>
