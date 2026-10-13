@@ -23,7 +23,7 @@ jobs:
         run: keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "C=US, O=Android, CN=Android Debug"
 
       - name: Bypass Google Services Error (Generate Dummy)
-        run: echo '{"project_info":{"project_number":"1","project_id":"dummy"},"client":[{"client_info":{"mobilesdk_app_id":"1:1:android:1","android_client_info":{"package_name":"com.example"}},"api_key":[{"current_key":"dummy"}]}]}' > app/google-services.json
+        run: echo '{"project_info":{"project_number":"1","project_id":"dummy"},"client":[{"client_info":{"mobilesdk_app_id":"1:1:android:1","android_client_info":{"package_name":"com.aistudio.customcontrols.gmapxv"}},"api_key":[{"current_key":"dummy"}]}]}' > app/google-services.json
 
       - name: Generate Wrapper and Build
         run: |
