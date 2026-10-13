@@ -19,16 +19,22 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Generate and Run Wrapper
+      - name: Generate Wrapper and Build
         run: |
           gradle wrapper
           chmod +x ./gradlew
-          ./gradlew assembleDebug --stacktrace
+          ./gradlew assembleDebug --stacktrace > build_error_log.txt 2>&1
 
       - name: Upload APK
-        if: always()
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: CustomControls-APK
           path: app/build/outputs/apk/debug/*.apk
 
+      - name: Upload Error Log (If Failed)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Build-Error-Log
+          path: build_error_log.txt
